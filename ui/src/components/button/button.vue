@@ -1,8 +1,8 @@
 <script lang="ts" name="button" setup>
 
 interface ButtonProps {
-    text?: string;
     type?: 'primary' | 'secondary' | 'default';
+    text?: string;
     disabled?: boolean;
 }
 

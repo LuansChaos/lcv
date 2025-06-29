@@ -7,7 +7,7 @@ console.log(app);
 
 <template>
     <div>
-        <Button text="按钮">按钮</Button>
+        <Button type="primary">按钮</Button>
         <button @click="app.increment">{{ app.count }} + {{ app.doubleCount }}</button>
         <lcv-button>111</lcv-button>
         <router-view></router-view>

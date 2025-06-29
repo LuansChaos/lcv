@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm -F demo run dev"
+    "dev": "pnpm -F demo run dev",
+    "doc": "pnpm -F doc run build"
   },
   "keywords": [],
   "author": "",
