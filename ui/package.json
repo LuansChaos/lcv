@@ -1,0 +1,25 @@
+{
+  "name": "@lcv/ui",
+  "version": "1.0.0",
+  "description": "lcv ui 组件库",
+  "type": "module",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "dts": "vue-tsc --declaration --emitDeclarationOnly --outFile ./types/index.d.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.2",
+  "peerDependencies": {
+    "less": "^4.3.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "less": "^4.3.0",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.17",
+    "vue-tsc": "^2.2.10"
+  }
+}

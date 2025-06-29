@@ -1,0 +1,22 @@
+{
+  "name": "@lcv/doc",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.2",
+  "dependencies": {
+    "@lcv/ui": "file:../ui"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
